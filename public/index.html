@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>Random Getallen Vergelijking</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.js'></script>
+  <script src='js/index.js'></script>
+</head>
+<body>
+  <div id='results' class='results'>
+  </div>
+  <center>
+    <div class="chip white-text blue darken-1">
+      100000 Getallen
+    </div>
+    <div class="chip white-text red darken-1">
+      50000 Getallen
+    </div>
+    <div class="chip white-text purple darken-1">
+      10000 Getallen
+    </div>
+    <br>
+    <div style="width:20%" class="chip white-text purple darken-1">
+      Math.floor((Math.random() * 99) + 0)
+    </div>
+  </center>
+  <div class="fixed-action-btn">
+    <a id='refresh' class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons">refresh</i></a>
+  </div>
+</body>
+</html>
